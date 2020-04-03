@@ -1,6 +1,6 @@
 package RMARCH21Inheritance;
 
-public class I5ArraysTest {
+public class I5ArraysTestQ {
     public static void main(String[] args) {
         I5ArrayOps myArr = new I5ArrayOps();
         int [] arr = {1,2,3,4,5,64,7,7,8};

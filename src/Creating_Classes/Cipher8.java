@@ -1,6 +1,7 @@
 package Creating_Classes;
 
-public class Cipher8 {
+public class
+Cipher8 {
     private String text;
     private int shift;
     public Cipher8(){
