@@ -10,5 +10,6 @@ public class P5AttendanceTest {
         myAtt.printWeeklyAttendance();
         myAtt.findTheMostAttended();
         myAtt.findTheMostAttendedDay();
+        myAtt.printDailyAttendance("mon");
     }
 }
