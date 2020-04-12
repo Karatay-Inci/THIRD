@@ -10,7 +10,7 @@ public class P5Attendance {
     public P5Attendance(String students[], int studentId[]) {
         this.students = students;
         this.studentId = studentId;
-        int[][] weeklyEmpty = new int[5][students.length];
+        int[][] weeklyEmpty = new int[5][students.length];          //student count
         this.weekly = weeklyEmpty;
     }
     public String [] getStudents(){
@@ -54,7 +54,7 @@ public class P5Attendance {
             System.out.println();
         }
     }
-    private int[] finMax(int[] arr) {
+    public int[] finMax(int[] arr) {
         int[] result = {0, 0};
         int max = arr[0];
         int index = 0;

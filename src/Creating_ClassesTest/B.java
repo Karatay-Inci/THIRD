@@ -1,4 +1,4 @@
-package FFF;
+package Creating_ClassesTest;
 
 import Creating_Classes.A;
 
