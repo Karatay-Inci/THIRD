@@ -1,7 +1,7 @@
 package MMAPRIL1Review;
 
 public class M2B extends M2A{
-    public M2B (int a){
-        super(a);
+    public M2B (){
+
     }
 }
