@@ -17,7 +17,7 @@ public class M5Test {
 
 
         System.out.println(parent.a+" "+parent.b+" "+parent.c);
-        M5Operations parent2 = new M5Operations(55,3);
+        M5Operations parent2 = new M5Operations(95,3);
         System.out.println(parent2.a);
         System.out.println(parent2.b);
         System.out.println(parent2.c);
