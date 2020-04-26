@@ -1,4 +1,4 @@
-package MMAPRIL1Review;
+package MMAPRIL1aReview;
 
 public class M7ExpoPlannerQ extends M7Planner{
     String expoName;

@@ -1,4 +1,4 @@
-package MMAPRIL1Review;
+package MMAPRIL1aReview;
 
 public class M4Money {
     static int MachineSerial=123234;

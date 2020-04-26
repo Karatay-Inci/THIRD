@@ -1,4 +1,4 @@
-package MMAPRIL1Review;
+package MMAPRIL1aReview;
 
 public class M7ExpoPlannerTest {
     public static void main(String[] args) {

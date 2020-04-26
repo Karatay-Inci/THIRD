@@ -1,4 +1,4 @@
-package MMAPRIL1Review;
+package MMAPRIL1aReview;
 
 public class M8ShapeCalculate {
     public static void calculatePerimeter(int edge1, int edge2, int edge3) {
