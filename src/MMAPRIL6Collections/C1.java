@@ -1,10 +1,10 @@
-package MAPRIL5exceptions;
+package MMAPRIL6Collections;
 
 import java.util.ArrayList;
 
-public class L1ArrayList {
+public class C1 {
     public static void main(String[] args) {
-        ArrayList <String> first = new ArrayList<String>() ;
+        ArrayList<String> first = new ArrayList<String>() ;
         System.out.println(first);
 
         first.add("Hello");

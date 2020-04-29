@@ -1,8 +1,8 @@
-package MAPRIL5exceptions;
+package MMAPRIL6Collections;
 
 import java.util.ArrayList;
 
-public class E13OneToThousand {
+public class C2OneToThousand {
     public static void main(String[] args) {
         ArrayList<Integer> numbers = new ArrayList<Integer>();
         for (int i = 1; i <=1000 ; i++) {
