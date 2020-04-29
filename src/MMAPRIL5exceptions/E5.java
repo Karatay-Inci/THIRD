@@ -1,12 +1,13 @@
-package MAPRIL5exceptions;
+package MMAPRIL5exceptions;
 
-public class E3 {
+public class E5 {
     public static void main(String[] args) {
-        int arr[] = new int [5];
+        String str = null;          // String str2="abc";----> if write this --> output = 4
+
         try {
-            arr[5]=5/0;
+            System.out.println(str.length());
         }
-        catch (ArithmeticException e ){
+        catch (ArithmeticException e){
             System.out.println("Arithmetic Exception");
         }
         catch (ArrayIndexOutOfBoundsException e){
@@ -15,6 +16,6 @@ public class E3 {
         catch (Exception e){
             System.out.println("Parent exception");
         }
-        System.out.println("Rest of the code");
+        System.out.println("Code...");
     }
 }

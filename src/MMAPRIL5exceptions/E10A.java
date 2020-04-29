@@ -1,6 +1,4 @@
-package MAPRIL5exceptions;
-
-import Creating_Classes.A;
+package MMAPRIL5exceptions;
 
 public class E10A {
     public static void main(String[] args) {

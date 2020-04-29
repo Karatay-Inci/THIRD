@@ -1,4 +1,4 @@
-package MAPRIL5exceptions;
+package MMAPRIL5exceptions;
 
 import java.util.Arrays;
 

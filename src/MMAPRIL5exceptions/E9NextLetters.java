@@ -1,6 +1,4 @@
-package MAPRIL5exceptions;
-
-import Creating_Classes.E;
+package MMAPRIL5exceptions;
 
 public class E9NextLetters {
     public static void main(String[] args) {

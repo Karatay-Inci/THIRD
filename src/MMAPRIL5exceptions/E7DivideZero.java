@@ -1,6 +1,4 @@
-package MAPRIL5exceptions;
-
-import Creating_Classes.A;
+package MMAPRIL5exceptions;
 
 import java.util.Scanner;
 

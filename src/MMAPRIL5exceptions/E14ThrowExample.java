@@ -1,4 +1,4 @@
-package MAPRIL5exceptions;
+package MMAPRIL5exceptions;
 
 public class E14ThrowExample {
     public static void main(String[] args) {

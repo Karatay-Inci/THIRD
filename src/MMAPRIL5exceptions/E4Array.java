@@ -1,11 +1,10 @@
-package MAPRIL5exceptions;
+package MMAPRIL5exceptions;
 
-public class E5 {
+public class E4Array {
     public static void main(String[] args) {
-        String str = null;          // String str2="abc";----> if write this --> output = 4
-
+        int arr []={1,2,3,4,5};
         try {
-            System.out.println(str.length());
+            System.out.println(arr[10]);
         }
         catch (ArithmeticException e){
             System.out.println("Arithmetic Exception");

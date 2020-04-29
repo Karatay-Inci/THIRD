@@ -1,6 +1,4 @@
-package MAPRIL5exceptions;
-
-import javax.print.attribute.standard.NumberUp;
+package MMAPRIL5exceptions;
 
 public class E10 {
     public static void main(String[] args) {
