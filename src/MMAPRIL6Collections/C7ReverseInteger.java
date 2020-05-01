@@ -11,5 +11,16 @@ public class C7ReverseInteger {
             numbersReversed.add(numbers.get(i));
         }
         System.out.println(numbersReversed);
+
+        //Solution with 1 ArrayList
+        int temp;
+        int index=numbers.size()-1;
+        for (int i = 0; i <numbers.size()/2; i++) {
+            temp=numbers.get(i);
+            numbers.set(i,numbers.get(index));
+            numbers.set(index,temp);
+            index--;
+        }
+        System.out.println(numbers);
     }
 }
