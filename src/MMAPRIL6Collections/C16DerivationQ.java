@@ -2,8 +2,8 @@ package MMAPRIL6Collections;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-
 public class C16DerivationQ {
+    //Write a Java program to find the 1st derivative of the integer Array.
     public static void main(String[] args) {
         int[] pixels = {23,53,31,32,55};
         System.out.println(findFirstDerivation(pixels));

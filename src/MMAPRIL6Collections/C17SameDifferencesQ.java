@@ -1,6 +1,12 @@
 package MMAPRIL6Collections;
 
 import java.util.ArrayList;
+/*
+ For given Integer Array list find the same differences (absolute) with 2 elements
+ Input:    2,4,6
+ Possible differences  2-4 ,2-6,4-6
+ Output:   2                  */
+
 
 public class C17SameDifferencesQ {
     public static void main(String[] args) {
