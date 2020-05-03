@@ -2,7 +2,7 @@ package MMAPRIL6Collections;
 
 import java.util.ArrayList;
 
-public class D2TwoDimFirstQuestion {
+public class D2TwoDimFirstQuestionQ {
     public static void main(String[] args) {
         ArrayList<ArrayList<Integer>> myTwo = new ArrayList<>();
         int number=1;
@@ -23,6 +23,22 @@ public class D2TwoDimFirstQuestion {
             }
         }
         //While loop implementation
+        int index=0;
+        while (index<myTwo.size()){
+            System.out.println(myTwo.get(index));
+            index++;
+        }
+        //Nested while loop implementation
+        int indexOuter=0;
+        int indexInner;
+        while (indexOuter<myTwo.size()){
+            indexInner=0;
+            while (indexInner<myTwo.get(indexOuter).size()){
+                System.out.println(myTwo.get(indexOuter).get(indexInner));
+                indexInner++;
+            }
+            indexOuter++;
+        }
     }
 
 }
