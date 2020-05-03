@@ -3,7 +3,7 @@ package MMAPRIL6Collections;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class C18 {
+public class C18RemovingStart {
     /*Write a java program to shift left number of elements
     Sample input
                     1,2,3,4,5

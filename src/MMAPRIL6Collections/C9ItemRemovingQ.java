@@ -12,7 +12,7 @@ public class C9ItemRemovingQ {
         ArrayList<String> myList = new ArrayList<>(Arrays.asList("Java","SQL","HTML","CSS","SELENIUM"));   //How  can I add chatAt.
         System.out.println(myList);
         System.out.print("Enter item to remove :");
-        String item = scn.next();
+        String item = scn.next().toUpperCase();
         ArrayList<String > newList = new ArrayList<>();
         for (String element : myList){
             if (!element.equals(item)){
