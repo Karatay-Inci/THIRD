@@ -1,4 +1,4 @@
-package MMAPRIL15Linked;
+package MMAPRIL15LinkedAndHashMap;
 
 import java.util.Arrays;
 import java.util.LinkedList;

@@ -1,4 +1,4 @@
-package MMAPRIL15Linked;
+package MMAPRIL15LinkedAndHashMap;
 
 public class L2ExtraChar {
     public static void main(String[] args) {
