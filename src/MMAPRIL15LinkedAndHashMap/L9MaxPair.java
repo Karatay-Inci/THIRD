@@ -15,8 +15,8 @@ public class L9MaxPair {
             hm.put(i,arr[i]*arr[i+1]);
         }
        // System.out.println(hm);
-        int max=0;
-        int index=0;
+        int max=0;  //to find max
+        int index=0;    //to store max values key (index)
         for (int key : hm.keySet()){
             if (hm.get(key)>max){
                 max=hm.get(key);
@@ -25,5 +25,4 @@ public class L9MaxPair {
         }
         System.out.println(index+"\t=\t"+max);
     }
-
 }
