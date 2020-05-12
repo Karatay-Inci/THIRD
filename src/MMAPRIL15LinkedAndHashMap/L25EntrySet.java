@@ -1,6 +1,8 @@
 package MMAPRIL15LinkedAndHashMap;
 
 import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
 
 public class L25EntrySet {
     public static void main(String[] args) {
@@ -9,5 +11,11 @@ public class L25EntrySet {
         hm.put("C","D");
         System.out.println(hm);
         System.out.println(hm.entrySet());
+
+        Iterator hmIter = hm.entrySet().iterator();
+        while(hmIter.hasNext()){
+            Map.Entry mapItem = (Map.Entry)hmIter.next();
+            System.out.println(mapItem.getKey()+" = "+mapItem.getValue());
+        }
     }
 }
