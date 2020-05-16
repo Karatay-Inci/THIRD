@@ -2,6 +2,7 @@ package MMAPRIL25CollectionsReview;
 
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.List;
 
 public class R1ArrayListRandomWords {
     public static void main(String[] args) {
@@ -30,5 +31,8 @@ public class R1ArrayListRandomWords {
         while (iter.hasNext()){
             System.out.println(iter.next());
         }
+        //diffrent topic (Initialization using List.of()method
+        List<Integer> list = new ArrayList<>(List.of(1,2,3,4,5,6,7));
+        System.out.println(list);
     }
 }
