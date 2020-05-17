@@ -28,3 +28,6 @@ public class R3ArrayListDuplicateRemove {
         System.out.println(hs);
     }
 }
+
+
+//3.05
