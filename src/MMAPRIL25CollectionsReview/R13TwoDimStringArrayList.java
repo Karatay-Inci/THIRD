@@ -2,6 +2,7 @@ package MMAPRIL25CollectionsReview;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.Iterator;
 
 public class R13TwoDimStringArrayList {
@@ -32,6 +33,22 @@ public class R13TwoDimStringArrayList {
             }
             System.out.println("Total Upper for this line "+ counter);
         }
-
+        int count;
+        HashMap<String ,Integer> hm = new HashMap<>();
+        for (int i = 0; i <words.size() ; i++) {
+            for (int j = 0; j <words.get(i).size() ; j++) {
+                count=0;
+                System.out.println(words.get(i));
+                for (int k = 0; k < words.get(i).get(j).length(); k++) {
+                    System.out.println(words.get(i).get(j));
+                    if (Character.isUpperCase(words.get(i).get(j).charAt(k))){
+                        System.out.println(words.get(i).get(j).charAt(k));
+                        count++;
+                    }
+                }
+                hm.put(words.get(i).get(j),count);
+            }
+        }
+        System.out.println(hm);
     }
 }
