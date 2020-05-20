@@ -17,13 +17,14 @@ public class L1LinkedListNumbersQ {
             for (int i = 0; i < word.length(); i++) {
                 if(Character.isDigit(word.charAt(i))){
                     x+=word.charAt(i);
+                    System.out.println(x);
                     value=Integer.parseInt(x);
                     total+=value;
                     x="";
                 }
             }
         }
-        System.out.println(total);
+        System.out.println("total : "+total);
     }
     public static void findDigits(LinkedList<String > arr, boolean x){
         int total=0;
@@ -31,7 +32,7 @@ public class L1LinkedListNumbersQ {
         for (String word:arr){  //fetch words
             for (int i = 0; i < word.length(); i++) {   //to fetch chars
                 if (Character.isDigit(word.charAt(i))){
-                    value=word.charAt(i)-48;            //Qqq
+                    value=word.charAt(i)-48;            //ASCII LIST 48=0
                     total+=value;
                 }
             }
