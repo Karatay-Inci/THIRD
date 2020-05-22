@@ -14,9 +14,6 @@ public class L12KeyCheck {
 
         System.out.println(isHasValue(hm,"B"));
         System.out.println(isHasValue(hm,"b"));
-
-
-
     }
     public static boolean isHasKey (HashMap<String ,String >hMap,String keyToCheck){
         boolean result = false;
